@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A3255BB8C21EDBE34D64FA2 /* Pods_oitechTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F311B4427E4456E9B745698F /* Pods_oitechTests.framework */; };
+		5A594BA9EC30E401F1685AD2 /* Pods_oitech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AC645454C24252D9D0583D9 /* Pods_oitech.framework */; };
+		7931AD422CC18ACF008C40AE /* InlineConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931AD412CC18ACF008C40AE /* InlineConfigurable.swift */; };
+		7931AD442CC18BC6008C40AE /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7931AD432CC18BC6008C40AE /* Repository.swift */; };
+		795ECBC92CC21E1D006C19AB /* MainTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBC82CC21E1D006C19AB /* MainTableViewDataSource.swift */; };
+		795ECBCB2CC21E3E006C19AB /* MainTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBCA2CC21E3E006C19AB /* MainTableViewDelegate.swift */; };
+		795ECBCE2CC21EC7006C19AB /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBCD2CC21EC7006C19AB /* MainTableViewCell.swift */; };
+		795ECBD02CC2200A006C19AB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBCF2CC2200A006C19AB /* MainViewModel.swift */; };
+		795ECBD32CC22364006C19AB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBD22CC22364006C19AB /* MainCoordinator.swift */; };
+		795ECBD52CC22389006C19AB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBD42CC22389006C19AB /* Coordinator.swift */; };
+		795ECBD72CC223A3006C19AB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBD62CC223A3006C19AB /* Router.swift */; };
+		795ECBD92CC22441006C19AB /* MainCoordinatorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBD82CC22441006C19AB /* MainCoordinatorFactory.swift */; };
+		795ECBDB2CC2246B006C19AB /* MainModulFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBDA2CC2246B006C19AB /* MainModulFactory.swift */; };
+		795ECBDD2CC22E45006C19AB /* MainSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBDC2CC22E45006C19AB /* MainSection.swift */; };
+		795ECBE02CC232CD006C19AB /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBDF2CC232CD006C19AB /* MovieModel.swift */; };
+		795ECBE22CC23F2C006C19AB /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBE12CC23F2C006C19AB /* Store.swift */; };
+		795ECBE42CC24D2E006C19AB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBE32CC24D2E006C19AB /* DetailViewController.swift */; };
+		795ECBE62CC25085006C19AB /* AppContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBE52CC25085006C19AB /* AppContainer.swift */; };
+		795ECBEA2CC25F3B006C19AB /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBE92CC25F3B006C19AB /* DetailViewModel.swift */; };
+		795ECBEC2CC26083006C19AB /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795ECBEB2CC26083006C19AB /* DetailModel.swift */; };
 		797AAED72CC1544100C4D18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AAED62CC1544100C4D18C /* AppDelegate.swift */; };
 		797AAED92CC1544100C4D18C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AAED82CC1544100C4D18C /* SceneDelegate.swift */; };
-		797AAEDB2CC1544100C4D18C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AAEDA2CC1544100C4D18C /* ViewController.swift */; };
-		797AAEDE2CC1544100C4D18C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797AAEDC2CC1544100C4D18C /* Main.storyboard */; };
+		797AAEDB2CC1544100C4D18C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AAEDA2CC1544100C4D18C /* MainViewController.swift */; };
 		797AAEE12CC1544100C4D18C /* oitech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 797AAEDF2CC1544100C4D18C /* oitech.xcdatamodeld */; };
 		797AAEE32CC1544200C4D18C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 797AAEE22CC1544200C4D18C /* Assets.xcassets */; };
 		797AAEE62CC1544200C4D18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 797AAEE42CC1544200C4D18C /* LaunchScreen.storyboard */; };
 		797AAEF12CC1544200C4D18C /* oitechTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AAEF02CC1544200C4D18C /* oitechTests.swift */; };
 		797AAEFB2CC1544200C4D18C /* oitechUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AAEFA2CC1544200C4D18C /* oitechUITests.swift */; };
 		797AAEFD2CC1544200C4D18C /* oitechUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797AAEFC2CC1544200C4D18C /* oitechUITestsLaunchTests.swift */; };
+		EF717377C00A3BF99C658CA4 /* Pods_oitech_oitechUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AF69A2091F7C2751FD81E5 /* Pods_oitech_oitechUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +57,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01AF69A2091F7C2751FD81E5 /* Pods_oitech_oitechUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oitech_oitechUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		227DE9762A0BCB3FF4E70126 /* Pods-oitech.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oitech.release.xcconfig"; path = "Target Support Files/Pods-oitech/Pods-oitech.release.xcconfig"; sourceTree = "<group>"; };
+		4AC645454C24252D9D0583D9 /* Pods_oitech.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oitech.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C54B7772399973A4D0E4292 /* Pods-oitech-oitechUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oitech-oitechUITests.release.xcconfig"; path = "Target Support Files/Pods-oitech-oitechUITests/Pods-oitech-oitechUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7931AD412CC18ACF008C40AE /* InlineConfigurable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InlineConfigurable.swift; sourceTree = "<group>"; };
+		7931AD432CC18BC6008C40AE /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		795ECBC82CC21E1D006C19AB /* MainTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewDataSource.swift; sourceTree = "<group>"; };
+		795ECBCA2CC21E3E006C19AB /* MainTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewDelegate.swift; sourceTree = "<group>"; };
+		795ECBCD2CC21EC7006C19AB /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		795ECBCF2CC2200A006C19AB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		795ECBD22CC22364006C19AB /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		795ECBD42CC22389006C19AB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		795ECBD62CC223A3006C19AB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		795ECBD82CC22441006C19AB /* MainCoordinatorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinatorFactory.swift; sourceTree = "<group>"; };
+		795ECBDA2CC2246B006C19AB /* MainModulFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModulFactory.swift; sourceTree = "<group>"; };
+		795ECBDC2CC22E45006C19AB /* MainSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSection.swift; sourceTree = "<group>"; };
+		795ECBDF2CC232CD006C19AB /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		795ECBE12CC23F2C006C19AB /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		795ECBE32CC24D2E006C19AB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		795ECBE52CC25085006C19AB /* AppContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainer.swift; sourceTree = "<group>"; };
+		795ECBE92CC25F3B006C19AB /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		795ECBEB2CC26083006C19AB /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
 		797AAED32CC1544100C4D18C /* oitech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oitech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		797AAED62CC1544100C4D18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		797AAED82CC1544100C4D18C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		797AAEDA2CC1544100C4D18C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		797AAEDD2CC1544100C4D18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		797AAEDA2CC1544100C4D18C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		797AAEE02CC1544100C4D18C /* oitech.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = oitech.xcdatamodel; sourceTree = "<group>"; };
 		797AAEE22CC1544200C4D18C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		797AAEE52CC1544200C4D18C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +92,11 @@
 		797AAEF62CC1544200C4D18C /* oitechUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oitechUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		797AAEFA2CC1544200C4D18C /* oitechUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oitechUITests.swift; sourceTree = "<group>"; };
 		797AAEFC2CC1544200C4D18C /* oitechUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oitechUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7C3ADB9CAD043FB0E5219152 /* Pods-oitech.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oitech.debug.xcconfig"; path = "Target Support Files/Pods-oitech/Pods-oitech.debug.xcconfig"; sourceTree = "<group>"; };
+		8D323211D132B2F6784659E7 /* Pods-oitechTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oitechTests.release.xcconfig"; path = "Target Support Files/Pods-oitechTests/Pods-oitechTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCBD3CC17311EEBFF3488AD0 /* Pods-oitech-oitechUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oitech-oitechUITests.debug.xcconfig"; path = "Target Support Files/Pods-oitech-oitechUITests/Pods-oitech-oitechUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8AF1C43C5037553FCB463F7 /* Pods-oitechTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-oitechTests.debug.xcconfig"; path = "Target Support Files/Pods-oitechTests/Pods-oitechTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F311B4427E4456E9B745698F /* Pods_oitechTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_oitechTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A594BA9EC30E401F1685AD2 /* Pods_oitech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +112,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A3255BB8C21EDBE34D64FA2 /* Pods_oitechTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +120,102 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF717377C00A3BF99C658CA4 /* Pods_oitech_oitechUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7175FC4A1E201CD1C2746CCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AC645454C24252D9D0583D9 /* Pods_oitech.framework */,
+				01AF69A2091F7C2751FD81E5 /* Pods_oitech_oitechUITests.framework */,
+				F311B4427E4456E9B745698F /* Pods_oitechTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7931AD402CC18AB4008C40AE /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7931AD412CC18ACF008C40AE /* InlineConfigurable.swift */,
+				795ECBD42CC22389006C19AB /* Coordinator.swift */,
+				795ECBD62CC223A3006C19AB /* Router.swift */,
+				795ECBE12CC23F2C006C19AB /* Store.swift */,
+				795ECBE52CC25085006C19AB /* AppContainer.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		795ECBC62CC21D8D006C19AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				795ECBD12CC22355006C19AB /* Coordinator */,
+				795ECBE82CC25E7A006C19AB /* Main */,
+				795ECBE72CC25E64006C19AB /* Detail */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		795ECBC72CC21DE2006C19AB /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				795ECBDC2CC22E45006C19AB /* MainSection.swift */,
+				795ECBC82CC21E1D006C19AB /* MainTableViewDataSource.swift */,
+				795ECBCA2CC21E3E006C19AB /* MainTableViewDelegate.swift */,
+				795ECBCC2CC21E7A006C19AB /* MainTableViewCell */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		795ECBCC2CC21E7A006C19AB /* MainTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				795ECBCD2CC21EC7006C19AB /* MainTableViewCell.swift */,
+			);
+			path = MainTableViewCell;
+			sourceTree = "<group>";
+		};
+		795ECBD12CC22355006C19AB /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				795ECBD22CC22364006C19AB /* MainCoordinator.swift */,
+				795ECBD82CC22441006C19AB /* MainCoordinatorFactory.swift */,
+				795ECBDA2CC2246B006C19AB /* MainModulFactory.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		795ECBDE2CC232B0006C19AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				795ECBDF2CC232CD006C19AB /* MovieModel.swift */,
+				795ECBEB2CC26083006C19AB /* DetailModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		795ECBE72CC25E64006C19AB /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				795ECBE32CC24D2E006C19AB /* DetailViewController.swift */,
+				795ECBE92CC25F3B006C19AB /* DetailViewModel.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		795ECBE82CC25E7A006C19AB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				795ECBCF2CC2200A006C19AB /* MainViewModel.swift */,
+				797AAEDA2CC1544100C4D18C /* MainViewController.swift */,
+				795ECBC72CC21DE2006C19AB /* TableView */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		797AAECA2CC1544100C4D18C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +223,8 @@
 				797AAEEF2CC1544200C4D18C /* oitechTests */,
 				797AAEF92CC1544200C4D18C /* oitechUITests */,
 				797AAED42CC1544100C4D18C /* Products */,
+				B583D1A6CA54670C06EBF8A7 /* Pods */,
+				7175FC4A1E201CD1C2746CCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +241,16 @@
 		797AAED52CC1544100C4D18C /* oitech */ = {
 			isa = PBXGroup;
 			children = (
+				795ECBDE2CC232B0006C19AB /* Model */,
+				7931AD402CC18AB4008C40AE /* Core */,
 				797AAED62CC1544100C4D18C /* AppDelegate.swift */,
 				797AAED82CC1544100C4D18C /* SceneDelegate.swift */,
-				797AAEDA2CC1544100C4D18C /* ViewController.swift */,
-				797AAEDC2CC1544100C4D18C /* Main.storyboard */,
+				795ECBC62CC21D8D006C19AB /* Main */,
 				797AAEE22CC1544200C4D18C /* Assets.xcassets */,
 				797AAEE42CC1544200C4D18C /* LaunchScreen.storyboard */,
 				797AAEE72CC1544200C4D18C /* Info.plist */,
 				797AAEDF2CC1544100C4D18C /* oitech.xcdatamodeld */,
+				7931AD432CC18BC6008C40AE /* Repository.swift */,
 			);
 			path = oitech;
 			sourceTree = "<group>";
@@ -130,6 +272,19 @@
 			path = oitechUITests;
 			sourceTree = "<group>";
 		};
+		B583D1A6CA54670C06EBF8A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C3ADB9CAD043FB0E5219152 /* Pods-oitech.debug.xcconfig */,
+				227DE9762A0BCB3FF4E70126 /* Pods-oitech.release.xcconfig */,
+				BCBD3CC17311EEBFF3488AD0 /* Pods-oitech-oitechUITests.debug.xcconfig */,
+				5C54B7772399973A4D0E4292 /* Pods-oitech-oitechUITests.release.xcconfig */,
+				C8AF1C43C5037553FCB463F7 /* Pods-oitechTests.debug.xcconfig */,
+				8D323211D132B2F6784659E7 /* Pods-oitechTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 797AAF002CC1544200C4D18C /* Build configuration list for PBXNativeTarget "oitech" */;
 			buildPhases = (
+				B82FEA512F14765D700C9D97 /* [CP] Check Pods Manifest.lock */,
 				797AAECF2CC1544100C4D18C /* Sources */,
 				797AAED02CC1544100C4D18C /* Frameworks */,
 				797AAED12CC1544100C4D18C /* Resources */,
+				9B2C5BDE4B76748979D7DD32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +311,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 797AAF032CC1544200C4D18C /* Build configuration list for PBXNativeTarget "oitechTests" */;
 			buildPhases = (
+				A941578E42C43C4BE7DD300B /* [CP] Check Pods Manifest.lock */,
 				797AAEE82CC1544200C4D18C /* Sources */,
 				797AAEE92CC1544200C4D18C /* Frameworks */,
 				797AAEEA2CC1544200C4D18C /* Resources */,
@@ -172,9 +330,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 797AAF062CC1544200C4D18C /* Build configuration list for PBXNativeTarget "oitechUITests" */;
 			buildPhases = (
+				DC721A53C7C30445B4097B5B /* [CP] Check Pods Manifest.lock */,
 				797AAEF22CC1544200C4D18C /* Sources */,
 				797AAEF32CC1544200C4D18C /* Frameworks */,
 				797AAEF42CC1544200C4D18C /* Resources */,
+				C68505BBC8566F56699FC16C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +396,6 @@
 			files = (
 				797AAEE62CC1544200C4D18C /* LaunchScreen.storyboard in Resources */,
 				797AAEE32CC1544200C4D18C /* Assets.xcassets in Resources */,
-				797AAEDE2CC1544100C4D18C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +415,136 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9B2C5BDE4B76748979D7DD32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oitech/Pods-oitech-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oitech/Pods-oitech-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oitech/Pods-oitech-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A941578E42C43C4BE7DD300B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oitechTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82FEA512F14765D700C9D97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oitech-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C68505BBC8566F56699FC16C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oitech-oitechUITests/Pods-oitech-oitechUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-oitech-oitechUITests/Pods-oitech-oitechUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-oitech-oitechUITests/Pods-oitech-oitechUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC721A53C7C30445B4097B5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-oitech-oitechUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		797AAECF2CC1544100C4D18C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				797AAEDB2CC1544100C4D18C /* ViewController.swift in Sources */,
+				795ECBD92CC22441006C19AB /* MainCoordinatorFactory.swift in Sources */,
+				795ECBC92CC21E1D006C19AB /* MainTableViewDataSource.swift in Sources */,
+				795ECBCE2CC21EC7006C19AB /* MainTableViewCell.swift in Sources */,
+				795ECBE22CC23F2C006C19AB /* Store.swift in Sources */,
+				795ECBCB2CC21E3E006C19AB /* MainTableViewDelegate.swift in Sources */,
+				795ECBDB2CC2246B006C19AB /* MainModulFactory.swift in Sources */,
+				797AAEDB2CC1544100C4D18C /* MainViewController.swift in Sources */,
+				795ECBE02CC232CD006C19AB /* MovieModel.swift in Sources */,
+				795ECBDD2CC22E45006C19AB /* MainSection.swift in Sources */,
 				797AAED72CC1544100C4D18C /* AppDelegate.swift in Sources */,
+				795ECBE42CC24D2E006C19AB /* DetailViewController.swift in Sources */,
+				795ECBD32CC22364006C19AB /* MainCoordinator.swift in Sources */,
+				795ECBD02CC2200A006C19AB /* MainViewModel.swift in Sources */,
+				7931AD422CC18ACF008C40AE /* InlineConfigurable.swift in Sources */,
+				795ECBD52CC22389006C19AB /* Coordinator.swift in Sources */,
 				797AAED92CC1544100C4D18C /* SceneDelegate.swift in Sources */,
+				795ECBEA2CC25F3B006C19AB /* DetailViewModel.swift in Sources */,
 				797AAEE12CC1544100C4D18C /* oitech.xcdatamodeld in Sources */,
+				795ECBE62CC25085006C19AB /* AppContainer.swift in Sources */,
+				795ECBEC2CC26083006C19AB /* DetailModel.swift in Sources */,
+				7931AD442CC18BC6008C40AE /* Repository.swift in Sources */,
+				795ECBD72CC223A3006C19AB /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +581,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		797AAEDC2CC1544100C4D18C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				797AAEDD2CC1544100C4D18C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		797AAEE42CC1544200C4D18C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -357,7 +629,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -420,7 +692,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -441,6 +713,7 @@
 		};
 		797AAF012CC1544200C4D18C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C3ADB9CAD043FB0E5219152 /* Pods-oitech.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,7 +724,6 @@
 				INFOPLIST_FILE = oitech/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,6 +741,7 @@
 		};
 		797AAF022CC1544200C4D18C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 227DE9762A0BCB3FF4E70126 /* Pods-oitech.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -479,7 +752,6 @@
 				INFOPLIST_FILE = oitech/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -497,6 +769,7 @@
 		};
 		797AAF042CC1544200C4D18C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8AF1C43C5037553FCB463F7 /* Pods-oitechTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +790,7 @@
 		};
 		797AAF052CC1544200C4D18C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D323211D132B2F6784659E7 /* Pods-oitechTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +811,7 @@
 		};
 		797AAF072CC1544200C4D18C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCBD3CC17311EEBFF3488AD0 /* Pods-oitech-oitechUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -555,6 +830,7 @@
 		};
 		797AAF082CC1544200C4D18C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C54B7772399973A4D0E4292 /* Pods-oitech-oitechUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

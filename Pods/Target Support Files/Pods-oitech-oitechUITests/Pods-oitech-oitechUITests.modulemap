@@ -1,0 +1,6 @@
+framework module Pods_oitech_oitechUITests {
+  umbrella header "Pods-oitech-oitechUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
